@@ -34,7 +34,7 @@ public class FileProcessUtilsTest extends BaseTest {
 
         // mock
         final String fileContent = "Junit test";
-        final String fileName = FileUtils.getTempDirectoryPath().concat("junitTest.txt");
+        final String fileName = FileUtils.getTempDirectoryPath().concat("/junitTest.txt");
 
         // execution
         FileProcessUtils.writeFile(fileContent, fileName);

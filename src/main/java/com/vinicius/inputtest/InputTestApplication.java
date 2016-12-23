@@ -24,7 +24,7 @@ public class InputTestApplication {
         try {
 
             String fileName = null;
-            if(args != null && args[0] != null) {
+            if(args != null && args.length > 0) {
                 fileName = args[0];
             }
             
